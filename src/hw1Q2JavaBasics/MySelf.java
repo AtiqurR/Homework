@@ -25,3 +25,4 @@ public class MySelf {
 				+ "\n I am very much interested in this course because i don't want to do odd job, i want to change my lifestyle,career as well. ");
 	}
 }
+//Test
