@@ -1,6 +1,5 @@
 package hw3Q3Constructor;
 
-import java.security.PublicKey;
 
 public class Computer {
 	public String Brand;
