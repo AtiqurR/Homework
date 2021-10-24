@@ -6,7 +6,7 @@ public class TestComputer {
 		Computer computer = new Computer(); // Constructor initialized
 		computer.Brand = "Apple";
 		computer.Model = "MacBook Air";
-		computer.OperatingSystem = "MacOS Mojava";
+		computer.OperatingSystem = "MacOS Mojave";
 		computer.price = 800;
 		computer.grade = 'C';
 		computer.madeInUsa = false;
