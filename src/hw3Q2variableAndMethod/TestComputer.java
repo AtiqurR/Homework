@@ -17,7 +17,7 @@ public class TestComputer {
 		Computer computer2 = new Computer();
 		computer2.Brand = "Windows";
 		computer2.Model = "Lenovo Flex 5";
-		computer2.OperatingSystem = "Windows 10";
+		computer2.OperatingSystem = "Windows 11";
 		computer2.price = 850;
 		computer2.grade = 'D';
 		computer2.madeInUsa = true;
