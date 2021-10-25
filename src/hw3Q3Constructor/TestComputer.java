@@ -5,7 +5,7 @@ public class TestComputer {
 	public static void main(String[] args) {
 
 		Computer computer = new Computer(); // default Constructor initialize
-		Computer Computer1 = new Computer("Apple", "MacBook Air", "MacOS Mojave", 800, 'C', false);
+		Computer computer1 = new Computer("Apple", "MacBook Air", "MacOS Mojave", 800, 'C', false);
 
 		System.out.println("*************************************");
 
