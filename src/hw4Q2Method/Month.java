@@ -3,52 +3,51 @@ package hw4Q2Method;
 public class Month {
 
 	public static void main(String[] args) {
-		String MonthOfBirth="March";
-		
+		String MonthOfBirth = "March";
+
 		switch (MonthOfBirth) {
-		
-		case "January" :
-			System.out.println("Your month of birth January");
+
+		case "January":
+			System.out.println("Your month of birth is January");
 			break;
-		case "February" :
-			System.out.println("Your month of birth February");
+		case "February":
+			System.out.println("Your month of birth is February");
 			break;
 		case "March":
-            System.out.println("Your month of birth March");
-            break;
-		case "April" :
-			System.out.println("Your month of birth April");
+			System.out.println("Your month of birth is March");
 			break;
-		case "May" :
-			System.out.println("Your month of birth April");
+		case "April":
+			System.out.println("Your month of birth is April");
 			break;
-		case"June" :
-			System.out.println("Your month of birth June");
+		case "May":
+			System.out.println("Your month of birth is April");
 			break;
-		case "July" :
-			System.out.println("Your month of birth June");
+		case "June":
+			System.out.println("Your month of birth is June");
 			break;
-		case "August" :
-			System.out.println("Your month of birth August");
+		case "July":
+			System.out.println("Your month of birth is June");
 			break;
-		case "September" :
-			System.out.println("Your month of birth September");
+		case "August":
+			System.out.println("Your month of birth is August");
 			break;
-		case "October" :
-			System.out.println("Your month of birth October");
+		case "September":
+			System.out.println("Your month of birth is September");
 			break;
-		case "November" :
-			System.out.println("Your month of birth November");
+		case "October":
+			System.out.println("Your month of birth is October");
 			break;
-		case "December" :
-			System.out.println("Your month of birth December");
+		case "November":
+			System.out.println("Your month of birth is November");
 			break;
-			
-			default :
-				System.out.println("Sorry we don't have your month of birth");
-		
+		case "December":
+			System.out.println("Your month of birth is December");
+			break;
+
+		default:
+			System.out.println("Please put a valid month of birth");
+
 		}
-		
 
 	}
 
