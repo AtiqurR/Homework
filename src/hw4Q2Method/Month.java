@@ -1,7 +1,5 @@
 package hw4Q2Method;
 
-//java
-
 public class Month {
 
 	public static void main(String[] args) {
