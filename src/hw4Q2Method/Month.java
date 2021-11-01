@@ -1,5 +1,7 @@
 package hw4Q2Method;
 
+//java
+
 public class Month {
 
 	public static void main(String[] args) {
@@ -46,6 +48,7 @@ public class Month {
 
 		default:
 			System.out.println("Please put a valid month of birth");
+			
 
 		}
 
