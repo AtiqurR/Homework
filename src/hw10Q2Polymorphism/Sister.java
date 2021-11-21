@@ -10,7 +10,7 @@ public class Sister {
 	// Return type parameterized method implemented -02
 	public int sister(int age1, int age2, int age3) {
 		int total1 = age1 + age2 + age3;
-		System.out.println("Total is from local Sister: " + total1);
+		System.out.println("Total age for sister1: " + total1);
 		return total1;
 
 	}
@@ -18,14 +18,14 @@ public class Sister {
 	// Return type parameterized method implemented -03
 	public int sister(int age1, int age2) {
 		int total2 = age1 + age2;
-		System.out.println("Total is from local Sister: " + total2);
+		System.out.println("Total age for sister2: " + total2);
 		return total2;
 	}
 
 	// Return type parameterized method implemented -04
 	public int sister(int age1, int age2, String age4) {
 		int total3 = age1 + age2 + Integer.parseInt(age4);
-		System.out.println("Total is from local Sister: " + total3);
+		System.out.println("Total age for sister3: " + total3);
 		return total3;
 
 	}
@@ -33,7 +33,7 @@ public class Sister {
 	// Final method implemented -05
 	public final int sister(int age1, int age2, int age3, int age4) {
 		int total4 = age1 + age2 + age3 + age4;
-		System.out.println("Total is from local Sister: " + total4);
+		System.out.println("Total age for sister4: " + total4);
 		return total4;
 
 	}
@@ -41,14 +41,14 @@ public class Sister {
 	// Static type Method implemented -06
 	public static int sister(int age1, int age2, int age3, int age4, int age5) {
 		int total5 = age1 + age2 + age3 + age4 + age5;
-		System.out.println("Total is from local Sister: " + total5);
+		System.out.println("Total age for sister5: " + total5);
 		return total5;
 	}
 
 	// void type parameterized method implemented 07
 	public void sister(int age1, int age2, int age3, int age4, int age5, int age6) {
 		int total6 = age1 + age2 + age3 + age4 + age5 + age6;
-		System.out.println("Total is from local Sister: " + total6);
+		System.out.println("Total age for sister6: " + total6);
 
 	}
 
@@ -57,7 +57,7 @@ public class Sister {
 	 * signature are different then it is called method overloading. Method
 	 * Overloading occurs during compile time.
 	 * 
-	 * Method overloading is also called static polymorphism,early binding,compile
+	 * Method overloading is also called static polymorphism,early binding or compile
 	 * time polymorphism
 	 */
 

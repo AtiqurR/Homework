@@ -11,7 +11,7 @@ public class Niece extends Sister {
 	@Override
 	public int sister(int age1, int age2, int age3) {
 		int total1 = age1 + age2 + age3 - 5;
-		System.out.println("Total is from local Sister: " + total1);
+		System.out.println("Total age for sister1: " + total1);
 		return total1;
 
 	}
@@ -20,7 +20,7 @@ public class Niece extends Sister {
 	@Override
 	public int sister(int age1, int age2) {
 		int total2 = age1 + age2 * 2;
-		System.out.println("Total is from local Sister: " + total2);
+		System.out.println("Total age for sister2: " + total2);
 		return total2;
 	}
 
@@ -28,7 +28,7 @@ public class Niece extends Sister {
 	@Override
 	public int sister(int age1, int age2, String age4) {
 		int total3 = age1 + age2 / 5 + Integer.parseInt(age4);
-		System.out.println("Total is from local Sister: " + total3);
+		System.out.println("Total age for sister3: " + total3);
 		return total3;
 
 	}
@@ -36,8 +36,8 @@ public class Niece extends Sister {
 	// Method 05
 	@Override
 	public void sister(int age1, int age2, int age3, int age4, int age5, int age6) {
-		int total6 = age1 / 5 + age2 + age3 + age4 + age5 + age6 / 2;
-		System.out.println("Total is from local Sister: " + total6);
+		int total4 = age1 / 5 + age2 + age3 + age4 + age5 + age6 / 2;
+		System.out.println("Total age for sister4: " + total4);
 
 	}
 
@@ -54,8 +54,8 @@ public class Niece extends Sister {
 	 * // Method 06
 	 * 
 	 * @Override public final int sister(int age1, int age2, int age3, int age4) {
-	 * int total4 = age1 + age2 + age3 + age4;
-	 * System.out.println("Total is from local Sister: " + total4); return total4;
+	 * int total5 = age1 + age2 + age3 + age4;
+	 * System.out.println("Total is from local Sister: " + total5); return total5;
 	 * 
 	 * }
 	 */
@@ -69,8 +69,8 @@ public class Niece extends Sister {
 	 * // Method 07
 	 * 
 	 * @Override public static int sister(int age1, int age2, int age3, int age4,
-	 * int age5) { int total5 = age1 + age2 + age3 + age4 + age5;
-	 * System.out.println("Total is from local Sister: " + total5); return total5; }
+	 * int age5) { int total6 = age1 + age2 + age3 + age4 + age5;
+	 * System.out.println("Total is from local Sister: " + total6); return total6; }
 	 */
 
 	/*
@@ -78,7 +78,7 @@ public class Niece extends Sister {
 	 * parameter & signature but logic or syntax are different then it is called
 	 * method overriding. Method Overriding occurs during run time.
 	 * 
-	 * Method overriding is also called dynamic polymorphism,late binding & run time
+	 * Method overriding is also called dynamic polymorphism,late binding or run time
 	 * polymorphism
 	 */
 
