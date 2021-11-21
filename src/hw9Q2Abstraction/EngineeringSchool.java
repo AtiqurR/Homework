@@ -9,4 +9,8 @@ public abstract class EngineeringSchool extends NYUniversity {
 
 	}
 
+	public EngineeringSchool() {
+		System.out.println("Default constructor for Engineering School Class.\n");
+	}
+
 }

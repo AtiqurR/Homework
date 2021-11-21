@@ -1,21 +1,20 @@
 package hw9Q2Abstraction;
 
-/*how many keywords are used for the inheritance in Java for a regular Class? Ans:2 keywords
- *A Regular Class can inherit only one Abstract Class or a regular class by extends keyword.
- *But A Regular class can inherit interface by implements keyword more than one,
- *can't inherit interface by extends keyword
- */
 public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
 
 	// if we want to make a abstract method in regular class we need to make the
 	// class to abstract
-	// public void chemistry();
+
+	// public abstract void chemistry();
+
+	// We cannot declare abstract method in regular class we can only implement non
+	// abstract method here.
 
 	public void biology() {
 		System.out.println("This method is from ColumbiaUniversity class");
 	}
 
-	public static void columbiaUniversity() {
+	public static void columbiaUniversity() { // I created Static method here
 		System.out.println("This is a static method of ColumbiaUniversity class");
 	}
 
@@ -103,3 +102,15 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	}
 
 }
+
+/*
+ * how many keywords are used for the inheritance in Java for a regular Class?
+ * Ans: 2 keywords.
+ * 
+ * A Regular Class can inherit only one Abstract Class or a regular class by
+ * extends keyword.
+ * 
+ * But A Regular class can inherit interface by implements keyword more than
+ * one, can't inherit interface by extends keyword
+ * 
+ */

@@ -1,11 +1,7 @@
 package hw9Q2Abstraction;
 
-/* how many keywords are used for the inheritance in Interface?Ans =1 keyword
- * Can an interface inherit other Interfaces?Ans: Yes or an interface inherit regular class or abstract class by extends key word?=No
- * How many inheritance is possible?Ans= more than one.
- */
-
 public interface University extends College, Hospital {
+
 	public abstract void classSize();
 
 	public abstract void playGround();
@@ -25,5 +21,16 @@ public interface University extends College, Hospital {
 		System.out.println("This is a static method");
 
 	}
+
+	/*
+	 * how many keywords are used for the inheritance in Interface?Ans =1 keyword
+	 * 
+	 * Can an interface inherit other Interfaces?Ans: Yes by extends keyword.
+	 * 
+	 * or an interface inherit regular class or abstract class by extends key
+	 * word?=No.
+	 * 
+	 * How many inheritance is possible?Ans= more than one.
+	 */
 
 }

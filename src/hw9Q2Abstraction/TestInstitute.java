@@ -29,32 +29,34 @@ public class TestInstitute {
 		columbiaUniversity.statistics();
 		columbiaUniversity.computerLab();
 		columbiaUniversity.physics();
-		ColumbiaUniversity.columbiaUniversity();
-		System.out.println("\n...........................****************.........................");
+		ColumbiaUniversity.columbiaUniversity(); // I called here static method of ColumbiaUniversity class
+
+		System.out.println("\n...........................****************.........................\n");
+
 		University university = new ColumbiaUniversity();
 		university.classSize();
 		university.playGround();
 		university.teacher();
 		university.gymnasium();
-		University.library();
+		University.library(); // I called here static method of University Interface
 		university.commonRoom();
 		university.laboratory();
 		university.languageClub();
 		university.dorm();
-		College.studyRoom();
 		university.emergencyRoom();
 		university.surgeryRoom();
 		university.cafeteria();
 		university.morgue();
-		Hospital.pharmacy();
-		System.out.println("\n........................*************................................");
+
+		System.out.println("\n........................*************................................\n");
+
 		MedicalSchool medicalSchool = new ColumbiaUniversity();
 		medicalSchool.anatomyLab();
 		medicalSchool.biochemistryLab();
 		medicalSchool.hygiene();
 		medicalSchool.caring();
 		medicalSchool.lawInfo();
-		MedicalSchool.medicalSchool();
+		MedicalSchool.medicalSchool(); // I called here static method of MedicalSchool abstract class
 		medicalSchool.statistics();
 		medicalSchool.aeronauticalInfo();
 		medicalSchool.mechanicalLab();
