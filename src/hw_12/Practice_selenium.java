@@ -52,7 +52,7 @@ public class Practice_selenium {
            iv) About Target ---> //h3[text()='About Target']
            v) Stores --- //h3[text()='Stores']
 
-      5) Tag with inner text [not actual text, means partial text as well as actual text] (most commonly used)
+      5) Tag with inner text [not actual text, means partial text as well as actual text] 
        
          Source: https://www.hbo.com/
          Example:
@@ -64,7 +64,7 @@ public class Practice_selenium {
            v) Succession ---> //strong[contains(text(), 'Su')]       (Partial Text)
 
 
-      6) Tag with attributes and use of contains (not commonly used)
+      6) Tag with attributes and use of contains 
 
          Source: https://www.bankofamerica.com/
          Example:
@@ -76,7 +76,7 @@ public class Practice_selenium {
            v) Connect with us ---> //h2[contains(@class, 'boa-social--header')]
 
 
-       7) Normalize space -- eliminates leading and trailing spaces. (high level)
+       7) Normalize space -- eliminates leading and trailing spaces.
 
          Source: https://www.costco.com/
          Example: 
@@ -100,7 +100,7 @@ public class Practice_selenium {
             v) Texas offers a variety of resources to help you ---> //span[starts-with(text(), 'Texas offers')]
 
 
-       9) Starts with attribute (not commonly used, no need to practice it)
+       9) Starts with attribute 
           
           Source: https://www.nyp.org/
           Example:
