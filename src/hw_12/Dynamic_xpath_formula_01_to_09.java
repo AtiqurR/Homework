@@ -1,6 +1,6 @@
 package hw_12;
 
-public class Practice_selenium {
+public class Dynamic_xpath_formula_01_to_09 {
 
 	/*
 	 
