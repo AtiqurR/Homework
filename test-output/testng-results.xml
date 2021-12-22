@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-21T04:56:12 EST" name="Default suite" finished-at="2021-12-21T04:58:33 EST" duration-ms="141382">
+  <suite started-at="2021-12-22T02:29:11 EST" name="Default suite" finished-at="2021-12-22T02:29:30 EST" duration-ms="18199">
     <groups>
     </groups>
-    <test started-at="2021-12-21T04:56:12 EST" name="Default test" finished-at="2021-12-21T04:58:33 EST" duration-ms="141382">
-      <class name="hw_13.Uses_of_method_to_run_an_url">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hw_13.Uses_of_method_to_run_an_url@66d3eec0]" started-at="2021-12-21T04:56:12 EST" name="setUp" finished-at="2021-12-21T04:58:00 EST" duration-ms="108299" status="PASS">
+    <test started-at="2021-12-22T02:29:11 EST" name="Default test" finished-at="2021-12-22T02:29:30 EST" duration-ms="18199">
+      <class name="hw_14_selenium.UseOfTestNGAnnotationSendKeys">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hw_14_selenium.UseOfTestNGAnnotationSendKeys@18d87d80]" started-at="2021-12-22T02:29:11 EST" name="setUp" finished-at="2021-12-22T02:29:17 EST" duration-ms="5462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="orderAndReturnTest()[pri:0, instance:hw_13.Uses_of_method_to_run_an_url@66d3eec0]" started-at="2021-12-21T04:58:00 EST" name="orderAndReturnTest" finished-at="2021-12-21T04:58:33 EST" duration-ms="32769" status="PASS">
+        <test-method signature="onlineIDTest()[pri:1, instance:hw_14_selenium.UseOfTestNGAnnotationSendKeys@18d87d80]" started-at="2021-12-22T02:29:17 EST" name="onlineIDTest" finished-at="2021-12-22T02:29:20 EST" duration-ms="3141" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderAndReturnTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw_13.Uses_of_method_to_run_an_url@66d3eec0]" started-at="2021-12-21T04:58:33 EST" name="tearUp" finished-at="2021-12-21T04:58:33 EST" duration-ms="282" status="PASS">
+        </test-method> <!-- onlineIDTest -->
+        <test-method signature="passcodeTest()[pri:2, instance:hw_14_selenium.UseOfTestNGAnnotationSendKeys@18d87d80]" started-at="2021-12-22T02:29:20 EST" name="passcodeTest" finished-at="2021-12-22T02:29:23 EST" duration-ms="3118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passcodeTest -->
+        <test-method signature="checkBoxTest()[pri:3, instance:hw_14_selenium.UseOfTestNGAnnotationSendKeys@18d87d80]" started-at="2021-12-22T02:29:23 EST" name="checkBoxTest" finished-at="2021-12-22T02:29:26 EST" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxTest -->
+        <test-method signature="signInTest()[pri:4, instance:hw_14_selenium.UseOfTestNGAnnotationSendKeys@18d87d80]" started-at="2021-12-22T02:29:26 EST" name="signInTest" finished-at="2021-12-22T02:29:29 EST" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw_14_selenium.UseOfTestNGAnnotationSendKeys@18d87d80]" started-at="2021-12-22T02:29:29 EST" name="tearUp" finished-at="2021-12-22T02:29:30 EST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- hw_13.Uses_of_method_to_run_an_url -->
+      </class> <!-- hw_14_selenium.UseOfTestNGAnnotationSendKeys -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

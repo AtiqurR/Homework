@@ -1,4 +1,4 @@
-package hw_12;
+package hw_12_dynamic_xpath;
 
 public class Dynamic_xpath_formula_01_to_09 {
 

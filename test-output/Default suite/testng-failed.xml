@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw_13.Uses_of_method_to_run_an_url">
+      <class name="hw_14_selenium.UseOfTestNGAnnotationSendKeys">
         <methods>
-          <include name="orderAndReturnTest"/>
-          <include name="tearUp"/>
           <include name="setUp"/>
+          <include name="tearUp"/>
+          <include name="checkBoxTest"/>
         </methods>
-      </class> <!-- hw_13.Uses_of_method_to_run_an_url -->
+      </class> <!-- hw_14_selenium.UseOfTestNGAnnotationSendKeys -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

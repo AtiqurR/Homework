@@ -1,4 +1,4 @@
-package hw_13;
+package hw_13_selenium;
 
 public class Dynamic_xpath__formula_10_to_14 {
 	
