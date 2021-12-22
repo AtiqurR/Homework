@@ -27,9 +27,13 @@ Source: https://www.ebay.com/
 Examples: 
 
 i) Watchlist ---> //li[@id='gh-wl-click']//child::div[@class='gh-menu gh--link__divider']
+
 ii) Search ---> //td[@class='gh-td gh-sch-btn']//child::input[@class='btn btn-prim gh-spr']
+
 iii) Buy ---> (//h3[@class='gf-bttl']//child::a[@class='gf-bttl thrd'])[1]
+
 iv) Tools & apps ---> (//li[@class='gf-li']//child::h3[@class='gf-bttl'])[3]
+
 v) sign-in ---> //button[@class='gh-control ghn-b gh-eb-li-a']//child::i[@id='gh-Alerts-i']
 
 
@@ -39,9 +43,13 @@ Source: https://www.amazon.com/
 Examples: 
 
 i) Amazon logo ---> //span[@class='nav-sprite nav-logo-base']//following-sibling::span[@id='logo-ext']
+
 ii) Keep shopping for ---> (//span[@class='a-truncate-full a-offscreen']//following-sibling::span[@class='a-truncate-cut'])[1]
+
 iii) Amazon Devices ---> (//li[@class='nav_first']//following-sibling::li[@class='nav_last '])[1]
+
 iv) Keep shopping for ---> (//span[@class='a-truncate-full a-offscreen']//following-sibling::span[@class='a-truncate-cut'])[1]
+
 v) Home & beauty (Deals on most-loved gifts)
 
 
@@ -51,9 +59,13 @@ Source: https://www.netflix.com/
 Example:
 
 i) Save your favorites easily and always have something to watch.---> (//h2[@class='our-story-card-subtitle']//preceding-sibling::h1[@class='our-story-card-title'])[3]
+
 ii) Questions? ---> //ul[@class='footer-links structural']//preceding-sibling::p[@class='footer-top']
+
 iii) What is Netflix? ---> (//div[@class='faq-answer closed']//preceding-sibling::button[@class='faq-question'])[1]
+
 iv) Get Started ---> (//span[@class='chevron-right-arrow']//preceding-sibling::span[@class='cta-btn-txt'])[1]
+
 v) How do I cancel? ---> (//div[@class='faq-answer closed']//preceding-sibling::button[@class='faq-question'])[4]
 
 
@@ -63,9 +75,13 @@ Source: https://www.discovery.com/
 Example:
 
 i) LIVE NOW ---> //h6[normalize-space(text())='Live Now']
+
 ii) EXPLORATION ---> (//span[normalize-space(text())='EXPLORATION'])[2]
+
 iii) Catch Up --->//span[normalize-space(text())='Catch Up']
+
 iv) Why Do Ducks Swim in a Row? ---> //span[normalize-space(text())='Why Do Ducks Swim in a Row?']
+
 v) Here for the Holidays ---> //span[normalize-space(text())='Here for the Holidays']
 
 
