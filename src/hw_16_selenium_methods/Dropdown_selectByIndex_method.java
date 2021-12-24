@@ -1,16 +1,16 @@
-package hw_14_selenium;
+package hw_16_selenium_methods;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class UseOfTestNGAnnotationIsDisplayed {
+public class Dropdown_selectByIndex_method {
 
-	
-	WebDriver driver;
+	ChromeDriver driver;
 
 	@BeforeTest
 	public void setUp() throws InterruptedException {
@@ -19,23 +19,23 @@ public class UseOfTestNGAnnotationIsDisplayed {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.bankofamerica.com/");
+		driver.get("https://www.bestbuy.com/");
 		Thread.sleep(3000);
 
 	}
 
-	@Test(enabled = true, priority = 1)
-	public void openAcountTest() {
-		boolean elementDisplayed = driver.findElement(By.className("logo-container")).isDisplayed();
-		System.out.println("Open Acount is Displayed? Ans: " + elementDisplayed);
+	@Test ()
+	public void selectByIndexTest() throws InterruptedException {
+		WebElement dropdown = driver.findElement(By.xpath("(//span[@class='plButton-label utility-nav-drawer-btn-label'])[1]"));
+		Select select = new Select(dropdown);
+		select.selectByIndex(5);
+		Thread.sleep(3000);
 
 	}
 
 	@AfterTest
 	public void tearUp() {
-		driver.quit();
-	}
-		
+		driver.close();
 	}
 
-
+}

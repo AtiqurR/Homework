@@ -1,4 +1,4 @@
-package hw_14_selenium;
+package hw_14_selenium_methods;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

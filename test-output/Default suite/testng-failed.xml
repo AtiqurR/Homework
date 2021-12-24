@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw_14_selenium.UseOfTestNGAnnotationSendKeys">
+      <class name="hw_16_selenium_methods.Dropdown_selectByIndex_method">
         <methods>
-          <include name="setUp"/>
+          <include name="selectByIndexTest"/>
           <include name="tearUp"/>
-          <include name="checkBoxTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- hw_14_selenium.UseOfTestNGAnnotationSendKeys -->
+      </class> <!-- hw_16_selenium_methods.Dropdown_selectByIndex_method -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,13 +1,15 @@
-package hw_14_selenium;
+package hw_14_selenium_methods;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class UseOfTestNGAnnotationGetTitle {
+public class UseOfTestNGAnnotationIsDisplayed {
 
+	
 	WebDriver driver;
 
 	@BeforeTest
@@ -22,9 +24,10 @@ public class UseOfTestNGAnnotationGetTitle {
 
 	}
 
-	@Test
-	public void titleTest() {
-		System.out.println("The Title of the page is: " + driver.getTitle());
+	@Test(enabled = true, priority = 1)
+	public void openAcountTest() {
+		boolean elementDisplayed = driver.findElement(By.className("logo-container")).isDisplayed();
+		System.out.println("Open Acount is Displayed? Ans: " + elementDisplayed);
 
 	}
 
@@ -32,5 +35,7 @@ public class UseOfTestNGAnnotationGetTitle {
 	public void tearUp() {
 		driver.quit();
 	}
+		
+	}
 
-}
+
