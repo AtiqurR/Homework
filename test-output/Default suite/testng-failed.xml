@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw_16_selenium_methods.Dropdown_selectByIndex_method">
+      <class name="hw_16_selenium_methods.WebBasedAlertMethods">
         <methods>
-          <include name="selectByIndexTest"/>
-          <include name="tearUp"/>
+          <include name="dismissAlertFromWindow"/>
           <include name="setUp"/>
+          <include name="acceptAlertFromWindow"/>
+          <include name="tearUp"/>
         </methods>
-      </class> <!-- hw_16_selenium_methods.Dropdown_selectByIndex_method -->
+      </class> <!-- hw_16_selenium_methods.WebBasedAlertMethods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

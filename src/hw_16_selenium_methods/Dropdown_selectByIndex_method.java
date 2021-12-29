@@ -1,6 +1,7 @@
 package hw_16_selenium_methods;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class Dropdown_selectByIndex_method {
 
-	ChromeDriver driver;
+	WebDriver driver;
 
 	@BeforeTest
 	public void setUp() throws InterruptedException {
@@ -19,18 +20,15 @@ public class Dropdown_selectByIndex_method {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.bestbuy.com/");
-		Thread.sleep(3000);
-
+		driver.get("https://www.mountsinai.org/");
 	}
 
-	@Test ()
+	@Test
 	public void selectByIndexTest() throws InterruptedException {
-		WebElement dropdown = driver.findElement(By.xpath("(//span[@class='plButton-label utility-nav-drawer-btn-label'])[1]"));
+		WebElement dropdown = driver.findElement(By.xpath("//select[@class='goog-te-combo']"));
 		Select select = new Select(dropdown);
-		select.selectByIndex(5);
+		select.selectByIndex(9);
 		Thread.sleep(3000);
-
 	}
 
 	@AfterTest

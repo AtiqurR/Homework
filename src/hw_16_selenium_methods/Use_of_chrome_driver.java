@@ -7,21 +7,21 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Use_of_chrome_driver {
-  
-	ChromeDriver driver ;
-	
+
+	ChromeDriver driver;
+
 	@BeforeTest
 	public void setUp() throws InterruptedException {
-	System.setProperty("webdriver.chrome.driver",
+		System.setProperty("webdriver.chrome.driver",
 				"\\Users\\Anik\\eclipse-workspace\\JaveSeleniumPractice\\driver\\chromedriver.exe");
-	driver = new ChromeDriver();
-	driver.manage().window().maximize();
-	driver.manage().deleteAllCookies();
-	driver.get("https://www.fedex.com/en-us/home.html");
-    Thread.sleep(3000);
-		
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.get("https://www.fedex.com/en-us/home.html");
+		Thread.sleep(3000);
+
 	}
-	
+
 	@Test
 	public void logInTest() throws InterruptedException {
 		driver.findElement(By.xpath("//span[text()='Sign Up or Log In ']")).click();
@@ -34,12 +34,12 @@ public class Use_of_chrome_driver {
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("12345");
 		driver.findElement(By.id("login-btn")).click();
 		Thread.sleep(3000);
-		
-		}
-	
+
+	}
+
 	@AfterTest
 	public void tearUp() {
 		driver.close();
 	}
-	
+
 }
