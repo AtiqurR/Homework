@@ -14,10 +14,14 @@ public class My_address {
 
 		System.out.println("This is my address");
 		System.out.println(MyName + "\n" + houseNumber + houseLocation + " " + streetName + streetType + "\n " + state
-				+ zipCode + "\n" + "I am am usCitizen? Ans:" + inUSA);
+				+ zipCode + "\n" + "I am a usCitizen? Ans:" + inUSA);
 	}
 
 	public static void main(String[] args) {
+
+		
+		
+		
 		my_address();
 	}
 
